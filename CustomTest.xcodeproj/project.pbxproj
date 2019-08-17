@@ -12,6 +12,8 @@
 		66F0AD8323060FFD0072E8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F0AD8123060FFD0072E8CA /* Main.storyboard */; };
 		66F0AD85230610020072E8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F0AD84230610020072E8CA /* Assets.xcassets */; };
 		66F0AD88230610020072E8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F0AD86230610020072E8CA /* LaunchScreen.storyboard */; };
+		66F0AD94230615DA0072E8CA /* CostomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F0AD93230615DA0072E8CA /* CostomView.xib */; };
+		66F0AD962306E6D30072E8CA /* CostomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0AD952306E6D30072E8CA /* CostomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		66F0AD84230610020072E8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66F0AD87230610020072E8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66F0AD89230610020072E8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F0AD93230615DA0072E8CA /* CostomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CostomView.xib; sourceTree = "<group>"; };
+		66F0AD952306E6D30072E8CA /* CostomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				66F0AD84230610020072E8CA /* Assets.xcassets */,
 				66F0AD86230610020072E8CA /* LaunchScreen.storyboard */,
 				66F0AD89230610020072E8CA /* Info.plist */,
+				66F0AD93230615DA0072E8CA /* CostomView.xib */,
+				66F0AD952306E6D30072E8CA /* CostomView.swift */,
 			);
 			path = CustomTest;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				66F0AD88230610020072E8CA /* LaunchScreen.storyboard in Resources */,
 				66F0AD85230610020072E8CA /* Assets.xcassets in Resources */,
 				66F0AD8323060FFD0072E8CA /* Main.storyboard in Resources */,
+				66F0AD94230615DA0072E8CA /* CostomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				66F0AD8023060FFD0072E8CA /* ViewController.swift in Sources */,
 				66F0AD7E23060FFD0072E8CA /* AppDelegate.swift in Sources */,
+				66F0AD962306E6D30072E8CA /* CostomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
